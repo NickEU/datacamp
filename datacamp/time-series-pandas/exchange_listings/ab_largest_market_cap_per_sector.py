@@ -1,4 +1,4 @@
-from index_comp_sector_stock_returns import exchange_listings
+from aa_index_comp_sector_stock_returns import exchange_listings
 
 # Select largest company for each sector and print sorting by market cap
 components = exchange_listings.groupby('Sector')['Market Capitalization'].nlargest(1)
