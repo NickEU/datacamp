@@ -1,4 +1,4 @@
-from largest_market_cap_per_sector import tickers
+from ab_largest_market_cap_per_sector import tickers
 import pandas as pd
 import matplotlib.pyplot as plt
 
