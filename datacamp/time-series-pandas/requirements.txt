@@ -1,6 +1,8 @@
 numpy==1.23.1
 pandas==1.4.3
 seaborn==0.11.2
-matplotlib==3.5.2
+matplotlib==3.5.3
 # enables read_excel in pd
 openpyxl==3.0.10
+# enables writing to excel
+xlwt==1.3.0
